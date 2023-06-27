@@ -1,0 +1,167 @@
+/** @format */
+
+.todos-bg-container {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=1060&t=st=1660460620~exp=1660461220~hmac=dfe08396080f501491c423f5fb75732c47fb562ae047465f7a0cab32a8f7ad2d");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.create-task-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.create-task-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.todo-items-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+  height: 36vh;
+  overflow-y: auto;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+  width: 99%;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  outline: none;
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 5px 20px 5px 20px;
+}
+.button:active {
+  background-color: #075c79;
+  outline: none;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  margin-left: auto;
+  padding-right: 18px;
+}
+
+.icon {
+  color: rebeccapurple;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon:active {
+  color: red;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.label-container-checked {
+  background-color: #90ee90;
+  border-color: green;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ababab #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #a7c99b71;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ababab;
+  border-radius: 124px;
+  border: 3px solid #3b8fab82;
+}
