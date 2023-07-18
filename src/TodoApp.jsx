@@ -45,7 +45,6 @@ const TodoApp = () => {
     }
 
     if (!updateTodo) {
-      console.log(123);
       const newTodo = {
         text: todoInputValue,
         uniqueNo: uniqueNo(),
@@ -59,7 +58,6 @@ const TodoApp = () => {
         (todo) => "todo" + todo.uniqueNo === updateTodoId
       );
       todoList[todoIndex].text = todoInputValue;
-      console.log(todoList);
       setTodoList([...todoList]);
       setTodoInputValue("");
       setUpdateTodo(false);
